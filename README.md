@@ -46,11 +46,11 @@
 ## Python client
 1. In the working directory for the python program, open and terminal and
   execute the startup command:  
-  **$python qt_program.py [remote_address] [remote_port] [duration_seconds] [period_milliseconds]**
+  **$python3 qt_program.py [remote_address] [remote_port] [duration_seconds] [period_milliseconds]**
     
     Example:
     
-    **code $python qt_program.py 192.168.0.105 8080 10 100**
+    **$python3 qt_program.py 192.168.0.105 8080 10 100**
     [For now, 8080 is the only acceptable port ID; see notes below.]
 2. After the UI starts, click on these buttons:
   - Request ID - You'll see output in both consoles

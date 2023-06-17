@@ -1,6 +1,6 @@
 # Elements:
 - C++ server program to receive requests to serve data and then to send via UDP.
-- Python program to request data then display per requirements from Rocket Lab
+- Python program to request data then display per requirements
 
 # Prerequisites:
 - g++11 or higher is required for std::counting_semaphore (or specialization std::binary_semaphore used in this program) 
@@ -59,7 +59,7 @@
   - Save to PDF - The current plot and text is saved to ./plot.pdf
 3. Try starting and stopping repeatedly
 4. When you are done, click on the Python close button.
-5. Note that the Rocket Lab requirements ask for "rate in milliseconds", which is ambiguous.  This program specifies period in milliseconds
+5. Note that the requirements ask for "rate in milliseconds", which is ambiguous.  This program specifies period in milliseconds
    rather than sample rate.
    
 # Console output
@@ -73,7 +73,7 @@
   runs there, but might exhibit some different behavior during start and stop.
 - Stopping and restarting in the Python UI produces a temporary artifact in the graph.
 - If the duration of the data set expires before a stop command, re-starting will require multiple
-  clicks on the start button [Restarting after a stop is not in the requirements from Rocket Lab]
+  clicks on the start button [Restarting after a stop is not in the requirements]
 - Program doesn't display any license info,e.g. for Qt.
 - Program sends 2 status idle messages when data stops sending, rather than 1.
 # Other comments:
